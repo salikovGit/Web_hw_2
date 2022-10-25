@@ -1,0 +1,72 @@
+* {
+    margin: 0;
+    padding: 0;
+
+}
+.header {
+    height: 321px;
+    color: whitesmoke;
+    background-color: aquamarine;
+    display: flex;
+}
+.logo   {
+    width: 160px;
+    height: 45px;
+    color: gray;
+    background-color: burlywood;
+    margin-top: 90px;
+    margin-left: 40px;
+}
+.item   {
+    width: 300px;
+    height: 350px;
+    border: 5px solid gray;
+    margin-bottom: 50px;
+    border-radius: 30px 60px;
+    background-image: url(https://funik.ru/wp-content/uploads/2018/10/17478da42271207e1d86.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.container {
+    width: 900px;
+    margin: 0 auto;
+    display: flex;
+    display: flexbox;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.content {
+    margin: 100px;
+}
+.footer {
+    height: 321px;
+    color: whitesmoke;
+    background-color: aquamarine;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.button {
+    width: 100px;
+    height: 40px;
+    background-color: lightcoral;
+    color: aliceblue;
+    text-align: center;
+    line-height: 40px;
+    border-radius: 30px 0px 0px 0px;
+    margin: 20 auto 0;
+}
+.button:hover {
+    background-color: whitesmoke;
+    color: rgb(42, 145, 158);
+}
+
+.footer-link {
+    text-decoration: none;
+}
+
+
+
+.bg {
+    background-color: beige;
+}
